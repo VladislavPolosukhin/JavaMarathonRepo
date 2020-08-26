@@ -13,7 +13,7 @@ public class Task1 {
             else if (stages > 4 && stages < 9){
                 System.out.println("Среднеэтажный дом");
             }
-            else if (stages > 9){
+            else if (stages >= 9){
                 System.out.println("Многоэтажный дом");
             }
 
