@@ -7,8 +7,10 @@ public class Task1 {
 
         boolean check = true;
 
+        Scanner scanner = new Scanner(System.in);
+
         while (check){
-            Scanner scanner = new Scanner(System.in);
+
             String city = scanner.nextLine();
 
             switch (city){

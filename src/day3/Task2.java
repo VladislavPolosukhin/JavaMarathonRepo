@@ -8,9 +8,10 @@ public class Task2 {
         double b;
         boolean check = true;
 
+        Scanner scanner = new Scanner(System.in);
+
         while (check) {
 
-            Scanner scanner = new Scanner(System.in);
             a = scanner.nextDouble();
             b = scanner.nextDouble();
             if (b == 0){

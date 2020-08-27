@@ -7,8 +7,9 @@ public class Task3 {
         double a;
         double b;
 
+        Scanner scanner = new Scanner(System.in);
+
         for (int i = 0; i < 5; i++) {
-            Scanner scanner = new Scanner(System.in);
             a = scanner.nextDouble();
             b = scanner.nextDouble();
 
