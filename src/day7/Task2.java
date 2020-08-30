@@ -14,7 +14,7 @@ public class Task2 {
         Player player7 = new Player("Garry");
         System.out.println(Player.getCountPlayers());*/
 
-        for (int i = 0; i < 101 ; i++) {
+        for (int i = 0; i < 1001 ; i++) {
             player1.run();
         }
 
