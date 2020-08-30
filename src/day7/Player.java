@@ -6,6 +6,7 @@ public class Player {
     private static int countPlayers;
     private int stamina;
     private String name;
+    private boolean isPlaying = true;
 
     public Player(String name) {
         if (countPlayers < 6) {
@@ -20,11 +21,15 @@ public class Player {
     }
 
     public void run() {
-        stamina--;
-        if (stamina == 0) {
+
+        if (stamina > MIN_STAMINA){
+            stamina--;
+        }
+
+        else if (stamina == 0 && isPlaying){
             System.out.println("Игрок " + name + " устал и покидает поле");
             countPlayers--;
-            stamina = MAX_STAMINA;
+            isPlaying = false;
         }
 
     }
