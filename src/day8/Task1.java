@@ -31,7 +31,7 @@ public class Task1 {
 
         System.out.println("Time for stringbuilder (millis) is " + period);
 
-        System.out.println("-----------Task 2 ----------");
+        System.out.println("-----------Task1 2 ----------");
         Airplane airplane = new Airplane(2000, 220, 70, "Xia yui hao");
         System.out.println(airplane);
     }
