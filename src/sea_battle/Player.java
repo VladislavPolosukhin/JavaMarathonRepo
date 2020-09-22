@@ -33,7 +33,7 @@ public class Player {
             s = scanner.nextLine();
             }
 
-            //    Scanner scanner1 = new Scanner(System.in);
+
                 String[] coordinate =  s.split(",");
                 int[][] shot = {{Integer.parseInt(coordinate[0]), Integer.parseInt(coordinate[1])}};
                 return enemyField.putShot(shot, name);

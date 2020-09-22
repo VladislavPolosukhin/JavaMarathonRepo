@@ -8,7 +8,7 @@ public class Game {
 
 
 
-        Field.GameOver gameOver = new Field.GameOver() {
+        GameOver gameOver = new  GameOver() {
             @Override
             public void gameOver(String playerName) {
                 System.out.println(playerName + " одержал победу! \n Поздравляем!!!");
